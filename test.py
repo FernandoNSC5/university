@@ -1,12 +1,4 @@
-mat = []
-aux = []
-
-aux.append(1)
-aux.append(2)
-mat.append(aux)
-aux = []
-aux.append(3)
-aux.append(4)
-mat.append(aux)
-
-print(mat)
+vet = [1,2,3,4,5,6]
+aux = [0,1,2,3,4,5]
+test = zip(vet, aux)
+print(test.get(0))
